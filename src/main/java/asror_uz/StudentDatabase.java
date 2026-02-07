@@ -31,6 +31,7 @@ public class StudentDatabase {
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.getResultSet();
 
+
             while (resultSet.next()){
                 long id = resultSet.getLong(1);
                 String name = resultSet.getString(2);
