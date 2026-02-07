@@ -38,6 +38,7 @@ public class StudentDatabase {
                 String surnmae = resultSet.getString(3);
                 int age = resultSet.getInt(4);
 
+
                 Student student = new Student(id , name , surnmae , age);
                 System.out.println(student);
 
